@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>PS-studio, coding with love</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css"/>
+    <link rel="icon" href="ico.png">
+    <meta name="Keywords" content="html верстка заказать, ps studio, заказать верстку макета сайта москва, заказать верстку сайта, html верстка, адаптивная верстка, верстка страниц, css верстка, компьютерная верстка, верстка html css, верстка сайта html, заказать верстку, заказать создание сайта, заказать сайт дешево">
+    <meta name="Description" content="Самописный сайт с уникальным дизайном под ключ? PS-studio!">
+    <meta name="robots" content="index, follow">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="author" content="PS-studio">
+    <script src="wow.min.js"></script>
+    <script>
+        new WOW().init();
+    </script>
+
+</head>
+
+
+<body>
+
+
+<!-- шапка -->
+    <header class="animate__animated animate__slideInDown">
+        <div class="wrap-logo">
+            <img src="logo2.png" alt="ЛОГО" class="LOGO">
+        </div>
+        <nav>
+            <ul class="topmenu">
+                <li><a class="active" href="web_PS_studio.html">Главная</a>
+                    <ul class="submenu">
+                        <li><a href="#">О нас</a></li>
+                        <li><a href="#sub2">Перечень сайтов</a></li>
+                        <li><a href="#sub3">Отзывы</a></li>
+                    </ul>
+                </li>
+                <li><a href="qualities.html">Преимущества</a></li>
+                <li><a href="price.html">Цены</a></li>
+                <li><a href="get.html">Заказать</a></li>
+            </ul>
+        </nav>
+    </header>
+
+<!-- шапка -->
+
+<br><br><br>
+
+<!-- контент -->
+<div class="animate__animated animate__slideInRight">
+    <div class="content">
+        <div class="content_about">
+            <div  class="header-h1"><h1>О &nbsp;нас</h1></div>
+            <div id="site-content1">
+                <br>
+                <b>Мы студия по вёрстке сайтов на заказ,</b><br>
+                работаем по вашим ТЗ (техническое задание)<br>
+                и ФТ (функциональные требования).<br>
+                <br>
+                <b>Вам выделяется личный куратор,</b><br>
+                который сообщит цену после изучения ТЗ/ФТ, <br>
+                а также будет согласовывать с Вами детали<br>
+                и информировать о ходе проекта по мере его продвижения.<br>
+                <br>
+                <b>Вы получите полноценный сайт</b><br>
+                с уникальным дизайном, а также исходный код <br>
+                для возможности его дальнейшего редактирования.<br><br>
+                <br><br><br><br><br><br><p id="sub2"></p><br><br><br>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<div class="animate__animated animate__slideInLeft">
+    <div class="content">
+        <div class="content_what">
+            <div class="header-h1"><h1>Перечень &nbsp;сайтов</h1></div>
+            <div class="site-content2">
+                Сейчас сложно представить современный бизнес без своего сайта. <br>
+                <b>У каждого бизнеса свои причины иметь сайт:</b>
+                <ul>
+                    <li>сайт-визитка для знакомства с компанией
+                    <li>интернет-магазин для продажи своих товаров/услуг
+                    <li>информационное пространство для размещения новостей или статей
+                    <li>корпоративный сайт
+                    <li>сайт-витрина
+                </ul>
+                Каждый бизнес индивидуален и имеет свои задачи.<br>
+                Мы создадим уникальный «самописный сайт» для решения задач именно вашего бизнеса.<br>
+                <p id="sub3"></p>
+                <b>Самописный сайт</b> – это не сайт, сделанный на конструкторе,<br>
+                а оптимизированный код, написанный с нуля вручную.<br>
+                <br>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- контент -->
+
+<!-- отзывы -->
+<div class="animate__animated animate__slideInRight">
+    <div class="header-h1"><h1>Отзывы</h1></div>
+    <br>
+    <div class="container">
+      <div class="review"><img src="man.jpg" alt="Avatar" style="width:5em"></div>
+      <p><span><b>Артемий Попов</b></span><i>Заказал сайт-визитку</i></p>
+      <p>Всё на вышем уровне! Работой остался доволен, порадовала цена</p>
+    </div>
+
+    <div class="container">
+        <div class="review"><img src="girl.png" alt="Avatar" style="width:5em"></div>
+      <p><span><b>Арина Зарипова</b></span><i>Заказала интернет магазин</i></p>
+      <p>Сайт функционирует как я и хотела. Помогли опубликовать его в интернете,<br>
+          поддержка сайта в течение 2-х недель, рада что выбрала PS-studio!</p>
+    </div>
+
+
+
+    <div class="container">
+        <div class="review"><img src="man.jpg" alt="Avatar" style="width:5em"></div>
+      <p><span><b>Андрей Иванов</b></span><i>Заказал сайт-витрину</i></p>
+      <p>Красиво, анимированно, лаконично</p>
+    </div>
+
+
+    <br>
+    <div class="container">
+      <form method="POST">
+            <div class="row">
+            <div class="col-25">
+                <label for="fname">Имя</label>
+            </div>
+            <div class="col-75">
+                <input type="text" id="fname" name="firstname" placeholder="Ваше Имя..">
+            </div>
+            </div>
+        <div class="row">
+          <div class="col-25">
+            <label for="lname">Фамилия</label>
+          </div>
+          <div class="col-75">
+            <input type="text" id="lname" name="lastname" placeholder="Ваша Фамилия..">
+          </div>
+        </div>
+        <div class="row">
+            <div class="col-25">
+                <label for="type_site">Вид сайта</label>
+            </div>
+            <div class="col-75">
+                <select id="type_site" type="text" name="type_site">
+                    <option value="visit">Сайт-визитка</option>
+                    <option value="korporative">Корпоративный сайт</option>
+                    <option value="vitrina">Сайт-витрина</option>
+                    <option value="internet_magazin">Интернет магазин</option>
+                    <option value="portal">Портал</option>
+                </select>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-25">
+                <label for="subject">Отзыв</label>
+            </div>
+            <div class="col-75">
+                <textarea id="subject" type="text" name="subject"  placeholder="Отзыв должен содержать номер заказа.." style="height:11.11111111111111em"></textarea>
+            </div>
+        </div>
+        <div class="row">
+            <input type="submit" class="btn" value="Отправить">
+        </div>
+      </form>
+    </div>
+</div>
+<!-- отзывы -->
+
+<br>
+<!-- контакты -->
+    <div class="nesolestag-enadenud">
+        <div class="header-h1"><h1>Контакты</h1></div>
+        <div class="ico-wrap"> <i class="fa fa-map-marker ico-contact"></i></div>
+        <h4 class="aio-icon-title">Telegram и Instagram:</h4>
+        <img src="Tg.png" alt="Telegram logo" width="23em"> Telegram: <a class="contact" target="_blank" href="https://tlgg.ru/PS_studio_Py">@ps_studio_ru</a><br>
+        <img src="inst.png" alt="Instagram logo" width="23em"> Instagram: <a class="contact" target="_blank" href="https://www.instagram.com/p/CBWXNfkj0Mt/?igshid=8pmlzny0ar6j">@ps_studio_ru</a>
+
+        <span class="kesednsoled"></span>
+
+
+        <br>
+
+        <div class="ico-wrap"> <i class="fa fa-clock-o ico-contact"></i>
+        </div>
+        <div class="meanous-andscoev">
+        <h4 class="aio-icon-title">График работы:</h4>
+        <div class="aio-icon-description">
+            с 10:00 до 23:00 можно с нами связаться
+        <div class="work_non_stop"><small>Без выходных</small></div>
+        </div>
+        </div>
+
+        <span class="kesednsoled"></span>
+
+        <div class="ico-wrap">
+        <i class="fa fa-envelope ico-contact"></i>
+        </div>
+        <div class="meanous-andscoev">
+        <h4 class="aio-icon-title">Электронная почта:</h4>
+        <div class="aio-icon-description">
+            <img src="email.png" alt="email logo" width="23em"><a class="contact" target="_blank" href="https://mail.yandex.ru/?uid=1098376313#inbox">&nbsp;p.s.studio@yandex.ru</a>
+        </div>
+        </div>
+
+        <span class="kesednsoled"></span>
+    </div>
+<!-- контакты -->
+
+
+<!-- всплывающее окно -->
+<!-- всплывающее окно -->
+
+</body>
+</html>
