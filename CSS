@@ -1,0 +1,614 @@
+@font-face {
+    font-family: Playfair Display; /* Имя шрифта */
+    src: url(PlayfairDisplay-VariableFont_wght.ttf); /* Путь к файлу со шрифтом */
+}
+
+.header-h1:hover{
+    -webkit-transition: all ease-in-out;;
+    -moz-transition: all ease-in-out;;
+    -o-transition: all ease-in-out;;
+    transition: all 0.3s ease-in-out;
+    -webkit-transform: scale(1.05);
+    -ms-transform: scale(1.05);
+    transform: scale(1.05);
+}
+
+
+a{
+    color: #950c96;
+}
+
+:root {
+    --mainColor: #D2C2FF;
+}
+.contact {
+    background: linear-gradient(to bottom, var(--mainColor) 0%, var(--mainColor) 100%) repeat-x 0 100%;
+    background-size: 22.2% 22.2% ;
+    color: #950c96;
+    text-decoration: none;
+    transition: background-size .2s;
+}
+.contact:hover {
+    background-size: 22.2% 277.7%;
+}
+
+
+
+body {
+    font-family: Manrope, Arial, sans-serif;
+    background-image: url("papyrus.png");
+    background-attachment: fixed;
+}
+
+@media screen and (min-width: 1111px) {
+    body {
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-width: 1110px) {
+    body {
+        font-size: 10px;
+    }
+}
+
+
+
+.content {
+    margin: 4.43em;
+}
+
+header {
+    margin: 0;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    background: #d2c2ff url(Fon.png) repeat-x center bottom;
+    padding: 0.1111111111111111em 2.7777777777777777em;
+    position: fixed;
+    width: 100%;
+    height: 6.111111111111111em;
+}
+
+
+
+.content_about {
+    border: 0.1111111111111111em solid #950c9d;
+    border-radius: 2em;
+    border-left: 0.4444444444444444em solid #950c9d;
+    background: #ffffff;
+    padding: 0.3888888888888889em 2.2222222222222223em;
+}
+
+.content_get{
+    border: 0.1111111111111111em solid #950c9d;
+    border-radius: 2em;
+    border-left: 0.4444444444444444em solid #950c9d;
+    background: #ffffff;
+    padding: 0.3888888888888889em 2.2222222222222223em;
+}
+
+.content_why {
+    border: 0.1111111111111111em solid #950c9d;
+    border-radius: 2em;
+    border-left: 0.4444444444444444em solid #950c9d;
+    background: #ffffff;
+    padding: 0.3888888888888889em 2.2222222222222223em;
+}
+
+.content_price{
+    border: 0.1111111111111111em solid #950c9d;
+    border-radius: 2em;
+    border-left: 0.4444444444444444em solid #950c9d;
+    background: #ffffff;
+    padding: 0.3888888888888889em 2.2222222222222223em;
+}
+
+.content_what {
+    border: 0.1111111111111111em solid #950c9d;
+    border-radius: 2em;
+    border-left: 0.4444444444444444em solid #950c9d;
+    background: #ffffff;
+    padding: 0.3888888888888889em 2.2222222222222223em;
+}
+
+
+
+#site-content1 {
+    background-image: url(foto3.png);
+    background-repeat: no-repeat;
+    background-position: right -0.5555555555555556em;
+    background-size: 55%;
+}
+
+.site-content3 {
+    background-image: url(foto5.png);
+    background-repeat: no-repeat;
+    background-position: left -0.5555555555555556em;
+    background-size: 150%;
+}
+
+.site-content5 {
+    background-image: url(foto0.jpeg);
+    background-repeat: no-repeat;
+    background-position: right -1.5em;
+    background-size: 35%;
+}
+
+
+
+.work_non_stop {
+    font-style: italic;
+}
+
+
+.LOGO {
+    width: 10em;
+    height: auto;
+}
+.wrap-logo {
+    display: flex;
+    align-items: center;
+    -webkit-transition: all 0.4s ease;
+    transition: all 0.4s ease;
+}
+.wrap-logo:hover {
+    -webkit-transform: rotate(6deg);
+    transform: rotate(6deg);
+
+    -webkit-transition: all 0.7s ease;
+    transition: all 0.7s ease;
+}
+
+
+
+
+
+header a {
+    color: #212121;
+    padding: 1.6666666666666667em;
+    border-radius: 2.5em;
+    letter-spacing: 0.1em;
+}
+
+
+
+header a:hover {
+    background-color: #ffffff;
+    color: #212121;
+}
+
+header a.active {
+    background-color: #ffffff;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+}
+
+
+
+
+
+
+.nesolestag-enadenud {
+    width: 30.166666666666664em;
+    margin: 0 auto;
+}
+
+
+
+
+.kesednsoled:after,
+.kesednsoled:before {
+    content: ".";
+    display: block;
+    overflow: hidden;
+    visibility: hidden;
+    font-size: 0;
+    line-height: 0;
+    width: 0;
+    height: 0;
+    clear: both;
+}
+.ico-wrap {
+    color: #a612d4;
+    width: 2.6666666666666665em;
+    height: 2.6666666666666665em;
+    margin: 1.6666666666666667em 1em 0.2777777777777778em 0.2777777777777778em;
+    display: block;
+    text-align: center;
+    border: 0.1111111111111111em solid #9d1cb7;
+    float: left;
+    border-radius: 1.6666666666666667em;
+}
+.ico-contact {
+    line-height: 1.9 !important;
+}
+.meanous-andscoev {
+    float: left;
+    margin-bottom: 1.1111111111111112em;
+}
+.aio-icon-title {
+    font-size: 0.8888888888888888em;
+    color: #950c96;
+    line-height: 1;
+    margin-bottom: 0.4444444444444444em;
+}
+
+@media (max-width: 767px) {
+    .meanous-andscoev,
+    .ico-wrap {
+        float: none;
+        text-align: center;
+    }
+    .ico-wrap {
+        margin: 0 auto 0.8333333333333334em auto;
+     }
+}
+
+
+
+
+
+
+.header-h1 {
+    padding: 2.7777777777777777em 1.1111111111111112em;
+    text-align: center;
+}
+.header-h1 h1 {
+    position: relative;
+    color: #950c96;
+    display: inline-block;
+    border-top: 0.1111111111111111em solid;
+    border-bottom: 0.1111111111111111em solid;
+    padding: 0.6111111111111112em 3.3333333333333335em;
+    margin: 0;
+    line-height: 1;
+}
+.header-h1 h1:before, .header-h1 h1:after {
+    content: "";
+    position: absolute;
+    top: 0;
+    width: 1.6666666666666667em;
+    height: 100%;
+    border-left: 0.1111111111111111em solid;
+    border-right: 0.1111111111111111em solid;
+    background: repeating-linear-gradient(180deg, transparent, transparent 0.1111111111111111em, #950c96 0.1111111111111111em, #950c96 0.2222222222222222em);
+}
+.header-h1 h1:before {
+    left: 0;
+}
+.header-h1 h1:after {
+    right: 0;
+}
+
+
+
+
+
+
+
+
+
+
+table {
+    position: relative;
+    left: 18%;
+    font-family: "Manrope", "Lucida Sans Unicode", "Lucida Grande", Sans-Serif, serif;
+    table-layout: fixed;
+    width: 55.55555555555556em;
+    font-size: 0.8888888888888888em;
+    background: white;
+    border-collapse: collapse;
+    text-align: center;
+}
+th {
+    font-weight: normal;
+    color: #950c9d;
+    border-bottom: 0.1111111111111111em solid #950c9d;
+    padding: 0.5555555555555556em 0.4444444444444444em;
+}
+
+td {
+    color: #950c9d;
+    padding: 0.5em 0.4444444444444444em;
+    transition: .3s linear;
+    overflow: hidden;
+}
+
+tr:hover td {
+    color: #d2c2ff;
+    background: #950c9d;
+}
+
+
+
+
+
+
+
+
+
+/* Style the container with a rounded border, grey background and some padding and margin */
+.container {
+    border: 0.1111111111111111em solid #950c9d;
+    background-color: #e4daff;
+    border-radius: 0.2777777777777778em;
+    padding: 0.8888888888888888em;
+    margin: 0.8888888888888888em 0;
+}
+
+/* Clear floats after containers */
+.container::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+/* Float images inside the container to the left. Add a right margin, and style the image as a circle */
+.container img {
+    float: left;
+    margin-right: 1.1111111111111112em;
+    border-radius: 50%;
+}
+
+/* Increase the font-size of a span element */
+.container span {
+    font-size: 1.1111111111111112em;
+    margin-right: 0.8333333333333334em;
+}
+
+/* Add media queries for responsiveness. This will center both the text and the image inside the container */
+@media (max-width: 500px) {
+  .container {
+    text-align: center;
+  }
+
+  .container img {
+    margin: auto;
+    float: none;
+    display: block;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.group {
+  position: relative;
+  margin-bottom: 2.2222222222222223em;
+}
+
+input {
+    font-size: 0.8888888888888888em;
+    padding: 0.5555555555555556em;
+    display: block;
+    width: 16.666666666666668em;
+    border: none;
+    border-bottom: 0.05555555555555555em solid #950c9d;
+}
+input:focus {
+    outline: none;
+}
+
+input[type=submit] {
+    border: 0;
+    background: #950c96;
+    border-radius: 0.2222222222222222em;
+    box-shadow: 0 0.3333333333333333em 0 #d2c2ff;
+    color: #fff;
+    cursor: pointer;
+    font: inherit;
+    float: right;
+    margin: 0;
+    outline: 0;
+    padding: 0.6666666666666666em 1.1111111111111112em;
+    transition: all .1s linear;
+}
+
+
+
+* {
+    box-sizing: border-box;
+}
+
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 0.6666666666666666em;
+    border: 0.05555555555555555em solid #950c9d;
+    border-radius: 0.2222222222222222em;
+    -webkit-border-radius: 0.2222222222222222em; //закругление углов (Google Chrome)
+    -moz-border-radius: 0.2222222222222222em; //закругление углов (FireFox)
+    -khtml-border-radius: 0.2222222222222222em; //закругление углов (Safari)
+    resize: vertical;
+    background: #ffffff !important; // желательно прописывать, так как в Chrome при сохранных данных оно может быть желтым
+    outline: none; // удаляет обводку в браузерах хром(желтая) и сафари(синяя)
+}
+
+label {
+    padding: 0.6666666666666666em 0.6666666666666666em 0.6666666666666666em 0;
+    display: inline-block;
+}
+
+
+
+input[type=submit]:hover {
+    background-color: #d2c2ff;
+    color: #222222;
+    border: 0.05555555555555555em solid #950c96;
+    box-shadow: 0 0 0;
+}
+
+.container {
+    border-radius: 0.2777777777777778em;
+    background-color: #f2f2f2;
+    padding: 1.1111111111111112em;
+}
+
+.col-25 {
+    float: left;
+    width: 25%;
+    margin-top: 0.3333333333333333em;
+}
+
+.col-75 {
+    float: left;
+    width: 75%;
+    margin-top: 0.3333333333333333em;
+}
+
+/* Очистить поплавки после колонн */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Отзывчивый макет - когда экран меньше, чем 600 пикселей в ширину, сделать два столбца стека друг на друга, а не рядом друг с другом */
+@media screen and (max-width: 600px) {
+    .col-25, .col-75, input[type=submit] {
+        width: 100%;
+        margin-top: 0;
+    }
+}
+
+
+input[type=text]:focus {
+    border: 0.05555555555555555em solid #950c9d;
+}
+
+
+
+
+
+
+
+
+
+
+
+nav {
+  text-align: center;
+  padding: 0 2.2222222222222223em 0;
+}
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+nav a {
+  text-decoration: none;
+  display: block;
+  color: #222;
+}
+.topmenu > li {
+  display: inline-block;
+  position: relative;
+}
+.topmenu > li > a {
+  position: relative;
+  padding: 0.5555555555555556em 0.8333333333333334em;
+  font-size: 1.6em;
+  line-height: 1;
+  letter-spacing: 0.16666666666666666em;
+}
+.topmenu > li > a:before {
+  content: "";
+  position: absolute;
+  z-index: 5;
+  left: 50%;
+  top: 100%;
+  width: 0.5555555555555556em;
+  height: 0.5555555555555556em;
+  background: white;
+  border-radius: 50%;
+  transform: translate(-50%, 1.1111111111111112em);
+  opacity: 0;
+  transition: .4s;
+}
+.topmenu li:hover a:before {
+  transform: translate(-50%, 0);
+  opacity: 1;
+}
+.submenu {
+  position: absolute;
+  z-index: 4;
+  left: 50%;
+  top: 100%;
+  width: 8.333333333333334em;
+  padding: 0.8333333333333334em 0 0.8333333333333334em;
+  margin-top: 0.2777777777777778em;
+  background: white;
+  border-radius: 0.2777777777777778em;
+  box-shadow: 0 0 1.6666666666666667em rgba(0,0,0,.2);
+  box-sizing: border-box;
+  visibility: hidden;
+  opacity: 0;
+  transform: translate(-50%, 1.1111111111111112em);
+  transition: .4s;
+}
+.topmenu > li:hover .submenu {
+  visibility: visible;
+  opacity: 1;
+  transform: translate(-50%, 0);
+}
+.submenu a {
+  font-size: 0.6666666666666666em;
+  letter-spacing: 0.05555555555555555em;
+  padding: 0.2777777777777778em 0.5555555555555556em;
+  transition: .3s linear;
+}
+.submenu a:hover {background: #e8e8e8;}
+
+
+
+
+
+.review:hover{
+    animation: review 0.7s;
+    animation-timing-function: ease-in-out;
+}
+@keyframes review {
+    0%{
+        transform: rotateY(0deg);
+    }
+
+    50%{
+        transform: rotateY(10deg);
+    }
+
+    100%{
+        transform: rotateY(0deg);
+    }
+}
+
+
+
+
+
+.col-25 {
+    background: #999;
+    color: transparent;
+    text-shadow: 0 0.16666666666666666em 0.2777777777777778em rgba(250,250,250,0.95);
+    -webkit-background-clip: text;
+    font-size: 1.3888888888888888em;
+}
