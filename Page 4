@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>PS-studio, coding with love</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css"/>
+    <link rel="icon" href="ico.png">
+    <meta name="Keywords" content="html верстка заказать, ps studio, заказать верстку макета сайта москва, заказать верстку сайта, html верстка, адаптивная верстка, верстка страниц, css верстка, компьютерная верстка, верстка html css, верстка сайта html, заказать верстку, заказать создание сайта, заказать сайт дешево">
+    <meta name="Description" content="Самописный сайт с уникальным дизайном под ключ? PS-studio!">
+    <meta name="robots" content="index, follow">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="author" content="PS-studio">
+    <script src="wow.min.js"></script>
+    <script>
+        new WOW().init();
+    </script>
+
+</head>
+
+<body>
+
+
+
+
+
+<!-- шапка -->
+    <header class="animate__animated animate__slideInDown">
+        <div class="wrap-logo">
+            <img src="logo2.png" alt="ЛОГО" class="LOGO">
+        </div>
+        <nav>
+            <ul class="topmenu">
+                <li><a href="web_PS_studio.html">Главная</a>
+                    <ul class="submenu">
+                        <li><a href="web_PS_studio.html">О нас</a></li>
+                        <li><a href="web_PS_studio.html#sub2">Перечень сайтов</a></li>
+                        <li><a href="web_PS_studio.html#sub3">Отзывы</a></li>
+                    </ul>
+                </li>
+                <li><a href="qualities.html">Преимущества</a></li>
+                <li><a href="price.html">Цены</a></li>
+                <li><a class="active" href="get.html">Заказать</a></li>
+            </ul>
+        </nav>
+    </header>
+
+<!-- шапка -->
+
+<br><br><br>
+
+
+<!-- контент -->
+<div class="animate__animated animate__slideInLeft">
+    <div class="content">
+         <div class="content_get">
+             <div class="header-h1"><h1>Оставьте &nbsp;заявку</h1></div>
+             <br>
+             <div class="site-content5">
+                 <b>Напишите нам по контактам ниже.</b><br>
+                 Приложите описание того, как вы видите результат и что хотите получить:
+                 <ul>
+                     <li>опишите, как можно подробнее, какие функции должны содержаться на сайте
+                     <li>приложите информацию и текст для размещения на страницах сайта
+                     <li>ваши контактные данные для рабочего взаимодействия
+                     <li>приложите логотип и картинки (не обязательно)
+                     <li>дизайн (не обязательно)
+                 </ul>
+                 <p id="bg"></p>
+
+                 <i>
+                     Не переживайте, если что-то не написали или не знаете как лучше, мы сами расспросим <br>
+                     вас о важных деталях и предложим вам наиболее подходящие варианты решения.<br>
+                     <br>
+                     Примеры ТЗ: <a href="https://www.vikiweb.ru/sitefiles/1.docx">Пример 1</a>,
+                     <a href="https://www.vikiweb.ru/sitefiles/2.docx">Пример 2</a>,
+                     <a href="https://www.vikiweb.ru/sitefiles/3.docx">Пример 3</a>,
+                     <a href="https://www.vikiweb.ru/sitefiles/4.docx">Пример 4</a>,
+                     <a href="https://www.vikiweb.ru/sitefiles/5.docx">Пример 5</a>.
+
+                 </i>
+                 <br><br><br><br>
+             </div>
+         </div>
+
+    </div>
+</div>
+<!-- контент -->
+
+
+<!-- контакты -->
+<div class="nesolestag-enadenud">
+    <div class="header-h1"><h1>Контакты</h1></div>
+
+    <div class="ico-wrap"> <i class="fa fa-map-marker ico-contact"></i></div>
+    <h4 class="aio-icon-title">Telegram и Instagram:</h4>
+    <img src="Tg.png" alt="Telegram logo" width="23em"> Telegram: <a class="contact" target="_blank" href="https://tlgg.ru/PS_studio_Py">@ps_studio_ru</a><br>
+    <img src="inst.png" alt="Instagram logo" width="23em"> Instagram: <a class="contact" target="_blank" href="https://www.instagram.com/p/CBWXNfkj0Mt/?igshid=8pmlzny0ar6j">@ps_studio_ru</a>
+
+    <span class="kesednsoled"></span>
+
+
+    <br>
+
+    <div class="ico-wrap"> <i class="fa fa-clock-o ico-contact"></i>
+    </div>
+    <div class="meanous-andscoev">
+        <h4 class="aio-icon-title">График работы:</h4>
+        <div class="aio-icon-description">
+            с 10:00 до 23:00 можно с нами связаться
+            <div class="work_non_stop"><small>Без выходных</small></div>
+        </div>
+    </div>
+
+    <span class="kesednsoled"></span>
+
+    <div class="ico-wrap">
+        <i class="fa fa-envelope ico-contact"></i>
+    </div>
+    <div class="meanous-andscoev">
+        <h4 class="aio-icon-title">Электронная почта:</h4>
+        <div class="aio-icon-description">
+            <img src="email.png" alt="email logo" width="23em"><a class="contact" target="_blank" href="https://mail.yandex.ru/?uid=1098376313#inbox">&nbsp;p.s.studio@yandex.ru</a>
+        </div>
+    </div>
+
+    <span class="kesednsoled"></span>
+</div>
+<!-- контакты -->
+
+
+</body>
+</html>
